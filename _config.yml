@@ -29,15 +29,7 @@ collections:
     output: true
     permalink: /projects/:name/
 
-defaults:
-  - scope:
-      type: projects
-    values:
-      layout: project
-  - scope:
-      type: posts
-    values:
-      layout: post
+
 
 # Exclude from build
 exclude:
