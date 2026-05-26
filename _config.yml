@@ -1,0 +1,46 @@
+title: Rico McPherson
+tagline: "AI Automation Architect & Systems Designer"
+email: your@email.com
+description: >-
+  AI systems design and automation strategy for coaches, wellness 
+  professionals, and service businesses. Multi-agent workflows, 
+  Firebase, GHL, and Google Workspace orchestration. Real production 
+  systems, not demos.
+
+url: "https://theopportunityking.github.io"
+baseurl: ""
+
+author:
+  name: Rico McPherson
+  brand: The Opportunity King
+  github: Theopportunityking
+
+# Social links
+github_link: https://github.com/Theopportunityking
+linkedin_link: https://www.linkedin.com/in/yourprofile
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      type: projects
+    values:
+      layout: project
+  - scope:
+      type: posts
+    values:
+      layout: post
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
