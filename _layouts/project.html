@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<article class="project">
+
+  <header class="project-header">
+    <h1>{{ page.title }}</h1>
+    <p class="tagline">{{ page.tagline }}</p>
+
+    <div class="project-meta">
+      <span>📅 {{ page.year }}</span>
+      <span>📌 {{ page.status }}</span>
+      <span>🏢 {{ page.client_type }}</span>
+    </div>
+
+    <div class="tech-stack">
+      {% for tech in page.tech_stack %}
+        <span class="badge">{{ tech }}</span>
+      {% endfor %}
+    </div>
+  </header>
+
+  <section class="project-outcomes">
+    <h3>Outcomes</h3>
+    <ul>
+      {% if page.outcomes.time_saved %}
+        <li>⏱ {{ page.outcomes.time_saved }}</li>
+      {% endif %}
+      {% if page.outcomes.consistency %}
+        <li>✅ {{ page.outcomes.consistency }}</li>
+      {% endif %}
+      {% if page.outcomes.pedagogical_integrity %}
+        <li>🎓 {{ page.outcomes.pedagogical_integrity }}</li>
+      {% endif %}
+    </ul>
+  </section>
+
+  <section class="project-content">
+    {{ content }}
+  </section>
+
+  {% if page.github_repo %}
+  <section class="project-repo">
+    <a href="{{ page.github_repo }}" class="btn">View Reference Repo →</a>
+  </section>
+  {% endif %}
+
+  <footer class="project-footer">
+    <a href="/projects/">← Back to All Projects</a>
+  </footer>
+
+</article>
