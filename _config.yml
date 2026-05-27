@@ -1,10 +1,10 @@
 title: Rico McPherson
-tagline: "AI Automation Architect & Systems Designer"
-email: your@email.com
+tagline: "AI Automation Architect & Business Systems Specialist"
+email: Admin@waymakerservices.net
 description: >-
   AI systems design and automation strategy for coaches, wellness 
-  professionals, and service businesses. Multi-agent workflows, 
-  Firebase, GHL, and Google Workspace orchestration. Real production 
+  professionals, and service businesses. Multi-agent workflows, voice agents, personal assistants, 
+  Apps, LLM systems, GHL, and Google Workspace orchestration. Real production 
   systems, not demos.
 
 url: "https://theopportunityking.github.io"
@@ -17,7 +17,7 @@ author:
 
 # Social links
 github_link: https://github.com/Theopportunityking
-linkedin_link: https://www.linkedin.com/in/yourprofile
+linkedin_link: https://www.linkedin.com/in/eric-mcpherson-254020103/
 
 # Build settings
 plugins:
@@ -29,10 +29,19 @@ collections:
     output: true
     permalink: /projects/:name/
 
-
+defaults:
+  - scope:
+      type: projects
+    values:
+      layout: project
+  - scope:
+      type: posts
+    values:
+      layout: post
 
 # Exclude from build
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - .DS_Store
