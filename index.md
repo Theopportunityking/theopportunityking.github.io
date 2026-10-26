@@ -1,15 +1,17 @@
 ---
 layout: default
-title: Rico McPherson — AI Automation Architect
+title: Rico McPherson — Agentic Systems Architect and AI Business Growth Strategist
 ---
 
 # Rico McPherson
 **The Opportunity King**
 
-I design and build AI automation systems for coaches, wellness professionals, 
-and service businesses. Every system I offer has been tested in production 
-inside my own operation first. It's not about keeping up with the hotest AI developments,
-but it's about understanding what gets real results on delivery. 
+I design and build AI Business Growth systems for coaches, wellness professionals, 
+and service businesses. The majority of the systems I offer have been tested in production 
+inside my own operation first. 
+
+My approach to implementing AI is not about keeping up with the most viral AI developments,
+but it's about understanding what gets real results on delivery. Today, many businesses are in a race to add                                                                               AI solutions to tackle problems that aren't clearly defined and fail at correlating real workflows that deliver positive ROI.                                                               I work with business owners and professionals to reverse this trend.   
 ---
 
 ## What I Do
